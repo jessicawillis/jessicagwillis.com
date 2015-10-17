@@ -1,3 +1,7 @@
-.hello {
-  color: yellow;
+.hero-image {
+  margin-bottom: 30px;
+}
+
+.inline-text {
+  padding: 30px 0 30px 0;
 }
