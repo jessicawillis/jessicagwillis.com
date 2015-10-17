@@ -1,7 +1,49 @@
-.hero-image {
-  margin-bottom: 30px;
+/* Text */
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+ul {
+  margin: 30px 0 0 0;
+  padding: 0;
 }
 
 .inline-text {
-  padding: 30px 0 30px 0;
+  padding: 80px 0 80px 0;
+}
+
+/* Nav arrows */
+
+#nav_left, #nav_right {
+  max-width: 10px;
+  font-size: 150%;
+  position:fixed;
+  color: grey;
+}
+
+#nav_left {
+  left: 10em;
+  top: 1em;
+}
+
+#nav_right {
+  right: 10em;
+  top: 1em;
+}
+
+/* Images */
+
+.hero-image-first {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  margin-bottom: 30px;
 }
