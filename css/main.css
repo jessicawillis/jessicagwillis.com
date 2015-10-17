@@ -37,6 +37,27 @@ ul {
   top: 1em;
 }
 
+/* Sidebar */
+
+@media (min-width: 768px) {
+  .project-desc.affix {
+    width: 158px;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-desc.affix {
+    width: 213px;
+    position: fixed;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-desc.affix {
+    width: 263px;
+  }
+}
+
 /* Images */
 
 .hero-image-first {
