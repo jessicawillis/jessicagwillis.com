@@ -9,9 +9,13 @@ p {
   font-size: 14px;
 }
 
-ul {
+.project-desc ul {
   margin: 30px 0 0 0;
   padding: 0;
+}
+
+.footer-text {
+  font-size: 12px;
 }
 
 .inline-text {
@@ -57,6 +61,22 @@ ul {
     width: 263px;
   }
 }
+
+/* Footer */
+
+footer {
+  margin: 0 0 30px 0;
+}
+
+.footer-social {
+  float: right;
+}
+
+.footer-social li {
+  display: inline;
+  float:right;
+}
+
 
 /* Images */
 
