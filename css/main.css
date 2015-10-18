@@ -1,3 +1,90 @@
-.hello {
-  color: yellow;
+/* Text */
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.project-desc ul {
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+.footer-text {
+  font-size: 12px;
+}
+
+.inline-text {
+  padding: 80px 0 80px 0;
+}
+
+/* Nav arrows */
+
+#nav_left, #nav_right {
+  max-width: 10px;
+  font-size: 150%;
+  position:fixed;
+  color: grey;
+}
+
+#nav_left {
+  left: 10em;
+  top: 1em;
+}
+
+#nav_right {
+  right: 10em;
+  top: 1em;
+}
+
+/* Sidebar */
+
+@media (min-width: 768px) {
+  .project-desc.affix {
+    width: 158px;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-desc.affix {
+    width: 213px;
+    position: fixed;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-desc.affix {
+    width: 263px;
+  }
+}
+
+/* Footer */
+
+footer {
+  margin: 0 0 30px 0;
+}
+
+.footer-social {
+  float: right;
+}
+
+.footer-social li {
+  display: inline;
+  float:right;
+}
+
+
+/* Images */
+
+.hero-image-first {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  margin-bottom: 30px;
 }
