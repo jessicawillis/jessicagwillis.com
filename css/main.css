@@ -1,18 +1,39 @@
 /* Text */
 
 h1 {
-  font-family: 'Signika Negative', sans-serif;
+  /*font-family: 'Signika Negative', sans-serif;*/
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  color: #1381B8;
-  text-transform: uppercase;
+  color: #E80CDF;
 }
+
+h2 {
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  line-height: 175%;
+  margin-bottom: 20px;
+}
+
 
 p {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   line-height: 175%;
+}
+
+.tag-styling {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  line-height: 175%;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 999em;
+  display: inline-block;
+  position: relative;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
 .project-desc ul {
@@ -92,6 +113,10 @@ nav ul li {
   .project-desc.affix {
     width: 263px;
   }
+}
+
+.sidebar-divider {
+  margin: 30px 0 30px 0;
 }
 
 /* Footer */
