@@ -89,23 +89,6 @@ p {
 
 /* Navigation */
 
-#nav_left, #nav_right {
-  max-width: 10px;
-  font-size: 150%;
-  position:fixed;
-  color: grey;
-}
-
-#nav_left {
-  left: 8em;
-  top: 7em;
-}
-
-#nav_right {
-  right: 8em;
-  top: 7em;
-}
-
 body { padding-top: 80px; }
 
 nav ul li {
