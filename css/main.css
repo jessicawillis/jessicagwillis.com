@@ -109,22 +109,18 @@ nav ul li {
 }
 
 /* Sidebar */
-
-@media (min-width: 768px) {
-  .project-desc.affix {
-    width: 158px;
-  }
-}
-
 @media (min-width: 992px) {
-  .project-desc.affix {
-    width: 213px;
+  .project-container {
     position: fixed;
+  }
+
+  .project-desc {
+    width: 213px;
   }
 }
 
 @media (min-width: 1200px) {
-  .project-desc.affix {
+  .project-desc {
     width: 263px;
   }
 }
