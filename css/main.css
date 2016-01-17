@@ -158,3 +158,16 @@ footer {
 .hero-image {
   margin-bottom: 30px;
 }
+
+@media (max-width: 992px) {
+  .small-hero-spacing {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    }
+  }
+
+@media (max-width: 992px) {
+  .sm-size-spacing {
+    margin-bottom: 30px;
+    }
+  }
