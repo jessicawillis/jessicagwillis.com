@@ -109,22 +109,18 @@ nav ul li {
 }
 
 /* Sidebar */
-
-@media (min-width: 768px) {
-  .project-desc.affix {
-    width: 158px;
-  }
-}
-
 @media (min-width: 992px) {
-  .project-desc.affix {
-    width: 213px;
+  .project-container {
     position: fixed;
+  }
+
+  .project-desc {
+    width: 213px;
   }
 }
 
 @media (min-width: 1200px) {
-  .project-desc.affix {
+  .project-desc {
     width: 263px;
   }
 }
@@ -146,6 +142,10 @@ nav ul li {
   margin-top: 20px;
 }
 
+.indent {
+  margin-left: 20px;
+}
+
 /* Footer */
 
 footer {
@@ -162,3 +162,16 @@ footer {
 .hero-image {
   margin-bottom: 30px;
 }
+
+@media (max-width: 992px) {
+  .small-hero-spacing {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    }
+  }
+
+@media (max-width: 992px) {
+  .sm-size-spacing {
+    margin-bottom: 30px;
+    }
+  }
